@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blogvideo_video_sections",
+  "info": {
+    "name": "Video Section",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "VideoLink": {
+      "type": "string"
+    },
+    "VideoBody": {
+      "type": "richtext"
+    },
+    "VideoTitle": {
+      "type": "string"
+    },
+    "CallBackLink": {
+      "type": "string"
+    }
+  }
+}
