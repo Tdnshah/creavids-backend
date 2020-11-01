@@ -1,8 +1,8 @@
 {
-  "name": "my-project",
+  "name": "creavids-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "An application for managing creavids blog and all dynamic content.",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,20 +11,21 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.1.5",
-    "strapi-admin": "3.1.5",
-    "strapi-utils": "3.1.5",
-    "strapi-plugin-content-type-builder": "3.1.5",
-    "strapi-plugin-content-manager": "3.1.5",
-    "strapi-plugin-users-permissions": "3.1.5",
-    "strapi-plugin-email": "3.1.5",
-    "strapi-plugin-upload": "3.1.5",
-    "strapi-connector-bookshelf": "3.1.5",
     "knex": "<0.20.0",
-    "mysql": "latest"
+    "mysql": "latest",
+    "strapi": "^3.2.5",
+    "strapi-admin": "3.2.5",
+    "strapi-connector-bookshelf": "3.2.5",
+    "strapi-plugin-comments": "^1.0.0-beta.4",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-email": "3.2.5",
+    "strapi-plugin-upload": "^3.2.5",
+    "strapi-plugin-users-permissions": "3.2.5",
+    "strapi-utils": "3.2.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "tdnshah"
   },
   "strapi": {
     "uuid": "3362812b-77d0-40b1-aabe-07e967349fa4"
