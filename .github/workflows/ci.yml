@@ -20,4 +20,5 @@ jobs:
                 git pull origin master &&
                 npm install &&
                 npm audit fix &&
+                npm run build &&
                 pm2 start Creavids-Backend
