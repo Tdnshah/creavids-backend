@@ -21,4 +21,4 @@ jobs:
                 npm install &&
                 npm audit fix &&
                 npm run build &&
-                pm2 start Creavids-Backend
+                pm2 start Creavids-Blog
