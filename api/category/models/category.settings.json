@@ -2,15 +2,21 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "Category"
+    "name": "Category",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "categoryname": {
       "type": "string"
+    },
+    "explore_video": {
+      "via": "categories",
+      "model": "explore-videos"
     }
   }
 }

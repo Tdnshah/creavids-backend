@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "explore_videos",
+  "info": {
+    "name": "Explore Videos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "VideoLink": {
+      "type": "string"
+    },
+    "VideoSource": {
+      "type": "enumeration",
+      "enum": [
+        "Youtube",
+        "Vimeo"
+      ]
+    },
+    "categories": {
+      "collection": "category",
+      "via": "explore_video"
+    }
+  }
+}
