@@ -13,16 +13,16 @@
   "dependencies": {
     "knex": "<0.20.0",
     "mysql": "latest",
-    "strapi": "^3.6.2",
-    "strapi-admin": "^3.6.2",
-    "strapi-connector-bookshelf": "^3.6.2",
+    "strapi": "^3.6.8",
+    "strapi-admin": "^3.6.8",
+    "strapi-connector-bookshelf": "^3.6.8",
     "strapi-plugin-comments": "^1.0.1",
-    "strapi-plugin-content-manager": "^3.6.2",
-    "strapi-plugin-content-type-builder": "^3.6.2",
-    "strapi-plugin-email": "^3.6.2",
-    "strapi-plugin-upload": "^3.6.2",
-    "strapi-plugin-users-permissions": "^3.6.2",
-    "strapi-utils": "^3.6.2"
+    "strapi-plugin-content-manager": "^3.6.8",
+    "strapi-plugin-content-type-builder": "^3.6.8",
+    "strapi-plugin-email": "^3.6.8",
+    "strapi-plugin-upload": "^3.6.8",
+    "strapi-plugin-users-permissions": "^3.6.8",
+    "strapi-utils": "^3.6.8"
   },
   "author": {
     "name": "tdnshah"
