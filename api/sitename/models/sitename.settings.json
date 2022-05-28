@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sitenames",
+  "info": {
+    "name": "Sitename"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Domainname": {
+      "type": "string"
+    },
+    "Metadata": {
+      "type": "string"
+    },
+    "Keywords": {
+      "type": "string"
+    }
+  }
+}
