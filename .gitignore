@@ -112,6 +112,7 @@ exports
 .cache
 build
 ecosystem.config.js
+.strapi-updater.json
 ############################
 # Creavids Blog files
 ############################
